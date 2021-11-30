@@ -1,0 +1,45 @@
+.stat_container {
+	width: 80%;
+	padding: 8px 12px;
+	display: flex;
+	flex-direction: column;
+}
+/* 
+.stat_container + .stat_container {
+	margin-top: 16px;
+} */
+
+.stat_label {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 4px;
+	font-size: 14px;
+}
+
+.stat_label .label {
+	font-weight: 300;
+	opacity: 0.6;
+	text-transform: uppercase;
+}
+
+.stat_label .value {
+	font-weight: 900;
+	opacity: 0.8;
+}
+
+.progress_bar {
+	margin-top: 6px;
+	height: 24px;
+	border-radius: 12px;
+	background-color: rgba(255, 255, 255, 0.8);
+	overflow: hidden;
+	box-shadow: 0px 3px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+.progress_bar .progress {
+	background-color: #245b9b;
+	height: 100%;
+	display: inline-block;
+	border-radius: 12px;
+}

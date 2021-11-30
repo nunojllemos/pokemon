@@ -1,0 +1,33 @@
+.container {
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+
+.container h1 {
+	font-size: 128px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.container h1 span {
+	display: block;
+	font-size: 60px;
+}
+
+.description {
+	margin-top: 24px;
+	margin-bottom: 48px;
+}
+
+.container p {
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.container p a {
+	text-decoration: underline;
+}

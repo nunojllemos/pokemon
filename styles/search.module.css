@@ -12,6 +12,12 @@
 	position: relative;
 }
 
+.form {
+	width: 100%;
+	z-index: 1;
+	margin-top: 180px;
+}
+
 .search_button {
 	border: none;
 	background-color: transparent;
@@ -78,4 +84,36 @@
 
 .search:focus ~ .search_tooltip {
 	opacity: 1;
+}
+
+.results_container {
+	width: 60%;
+	min-width: 400px;
+	max-width: 500px;
+	box-shadow: 0 4px 10px rgb(0, 0, 0, 0.25);
+	background-color: #fff;
+	border-radius: 10px;
+	transition: box-shadow ease 0.25s, top ease 0.25s;
+	position: relative;
+	box-sizing: border-box;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	position: relative;
+	top: 0;
+	margin-top: 7px;
+	overflow: hidden;
+}
+
+@media (hover: hover) {
+	.results_container:hover {
+		box-shadow: 0 10px 14px rgb(0, 0, 0, 0.15);
+		top: -2px;
+	}
+
+	.results_container:hover a {
+		opacity: 1;
+		text-decoration: underline;
+	}
 }
