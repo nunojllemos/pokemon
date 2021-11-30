@@ -20,7 +20,7 @@ const NotFound = () => {
 					and try again.
 				</p>
 			</div>
-			<Image src={'/../public/404.png'} width={600} height={370} />
+			<Image src={'/404.png'} width={600} height={370} />
 		</div>
 	)
 }
